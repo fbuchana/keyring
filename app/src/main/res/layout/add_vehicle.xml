@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="80dp"
+            android:fontFamily="sans-serif"
+            android:text="Vehicle information:"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="Owner:"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="VIN:"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="Year:"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Manufacturer:"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:text="Model:"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#4869d6"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:text="Color:"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="#4869d6"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/include_toolbar" />
+
+        <EditText
+            android:id="@+id/owner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="100dp"
+            android:ems="10"
+            android:hint="ex. John Smith"
+            android:inputType="textPersonName"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/vin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="46dp"
+            android:ems="10"
+            android:hint="ex. 467R912W334904935"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:hint="ex. 2005"
+            android:inputType="number"
+            android:selectAllOnFocus="true"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/manufacturer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="56dp"
+            android:ems="10"
+            android:hint="ex. Audi"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="60dp"
+            android:ems="10"
+            android:hint="ex. A4"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="58dp"
+            android:ems="10"
+            android:hint="ex. Venetian Violet"
+            android:inputType="text"
+            android:selectAllOnFocus="true"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/add_vehicle_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="120dp"
+            android:background="?attr/colorPrimaryDark"
+            android:elevation="10dp"
+            android:text="   Add   "
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@color/authui_inputTextColor"
+            android:textSize="60sp" />
+
+    </LinearLayout>
+    <include layout="@layout/include_navigation" />
+
+</android.support.v4.widget.DrawerLayout>

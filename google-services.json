@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "676084087929",
+    "firebase_url": "https://fir-keyring.firebaseio.com",
+    "project_id": "firebase-keyring",
+    "storage_bucket": "firebase-keyring.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676084087929:android:d3be09c5b3baaddb",
+        "android_client_info": {
+          "package_name": "de.andreasschrade.activities"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676084087929-rjrapvkgsncvjpefrd8q0cb6m128ujhu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.andreasschrade.activities",
+            "certificate_hash": "2bd442b386aaa53fe142cf28b448c802ab92efbe"
+          }
+        },
+        {
+          "client_id": "676084087929-e0jpfld11i7c8njn349cgt770shnjl0s.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "676084087929-hfv2rui24fbam2ee4dmo1ot84hpv3gl3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjs3I6LDJ08B7-V0MYYqc2pvzCJt2Pkuw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676084087929-e0jpfld11i7c8njn349cgt770shnjl0s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
